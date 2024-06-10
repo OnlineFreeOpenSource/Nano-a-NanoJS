@@ -1,51 +1,261 @@
 {
+    "product": "RefluxionJS",
     "roadmapItems": [
-        {
-            "title": "Release v1.0.0",
-            "type": "Release",
-            "startDate": "2024-01-01T00:00:00.000Z",
-            "endDate": "2024-01-31T00:00:00.000Z",
-            "tags": [
-                "dummy tag"
-            ],
-            "style": "blue",
-            "source": "Source 1",
-            "product": "Product 1"
-        },
-        {
-            "title": "Release v2.0.0",
-            "type": "Release",
-            "startDate": "2024-05-15T00:00:00.000Z",
-            "endDate": "2024-05-21T00:00:00.000Z",
-            "tags": [
-                "dummy tag"
-            ],
-            "style": "green",
-            "source": "Source 1",
-            "product": "Product 1",
+      {
+        "title": "Release v1.0.0",
+        "type": "Release",
+        "subType": "Major",
+        "startDate": "2023-03-01T00:00:00.000Z",
+        "endDate": "2023-03-10T00:00:00.000Z",
+        "style": "blue",
+        "source": "Source 1",
+        "product": "RefluxionJS",
+        "description": "Initial release with core functionalities and basic features.",
+        "children": [
+          {
+            "title": "Core Module",
+            "subType": "Feature",
+            "description": "Core functionalities of the library.",
             "children": [
-                {
-                    "title": "Feature A",
-                    "children": []
-                },
-                {
-                    "title": "Feature B",
-                    "children": []
-                }
+              {
+                "title": "Implement basic data structures",
+                "subType": "Enhancement",
+                "url": "www.example.com/feature1",
+                "description": "Will implement basic data structures like arrays, linked lists, and stacks."
+              },
+              {
+                "title": "Set up project scaffolding",
+                "subType": "Enhancement",
+                "url": "www.example.com/feature2",
+                "description": "Will set up the initial project structure and build system."
+              }
             ]
-        },
-        {
-            "title": "Release v3.0.0",
-            "type": "Release",
-            "startDate": "2024-08-15T00:00:00.000Z",
-            "endDate": "2024-08-21T00:00:00.000Z",
-            "tags": [
-                "dummy tag"
-            ],
-            "style": "pink",
-            "source": "Source 1",
-            "product": "Product 2"
-        }
-    ],
-    "product": "Product 1"
-}
+          },
+          {
+            "title": "Utility Functions",
+            "subType": "Feature",
+            "description": "Basic utility functions for data manipulation.",
+            "children": [
+              {
+                "title": "Add string manipulation utilities",
+                "subType": "Enhancement",
+                "url": "www.example.com/feature3",
+                "description": "Will add utility functions for string manipulation."
+              },
+              {
+                "title": "Include date/time utilities",
+                "subType": "Enhancement",
+                "url": "www.example.com/feature4",
+                "description": "Will include functions to handle date and time operations."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release v1.1.0",
+        "type": "Release",
+        "subType": "Minor",
+        "startDate": "2023-06-05T00:00:00.000Z",
+        "endDate": "2023-06-15T00:00:00.000Z",
+        "style": "green",
+        "source": "Source 1",
+        "product": "RefluxionJS",
+        "description": "This release focuses on adding new features and improving performance.",
+        "children": [
+          {
+            "title": "Performance Improvements",
+            "subType": "Feature",
+            "description": "Enhancements to improve the performance of the library.",
+            "children": [
+              {
+                "title": "Optimize data structure operations",
+                "subType": "Enhancement",
+                "url": "www.example.com/feature5",
+                "description": "Will optimize operations on existing data structures to improve performance."
+              },
+              {
+                "title": "Reduce memory footprint",
+                "subType": "Enhancement",
+                "url": "www.example.com/feature6",
+                "description": "Will implement changes to reduce the overall memory footprint of the library."
+              }
+            ]
+          },
+          {
+            "title": "New Features",
+            "subType": "Feature",
+            "description": "Introduction of new functionalities.",
+            "children": [
+              {
+                "title": "Add support for Promises",
+                "subType": "Enhancement",
+                "url": "www.example.com/feature7",
+                "description": "Will add support for Promise-based asynchronous operations."
+              },
+              {
+                "title": "Implement event handling",
+                "subType": "Enhancement",
+                "url": "www.example.com/feature8",
+                "description": "Will implement a basic event handling system."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release v1.2.0",
+        "type": "Release",
+        "subType": "Minor",
+        "startDate": "2023-09-01T00:00:00.000Z",
+        "endDate": "2023-09-12T00:00:00.000Z",
+        "style": "red",
+        "source": "Source 1",
+        "product": "RefluxionJS",
+        "description": "Focus on bug fixes and small enhancements.",
+        "children": [
+          {
+            "title": "Bug Fixes",
+            "subType": "Feature",
+            "description": "Fixes for various issues reported by users.",
+            "children": [
+              {
+                "title": "Fix issue with array sorting",
+                "subType": "Bug Fix",
+                "url": "www.example.com/bugfix1",
+                "description": "Will fix an issue where array sorting does not work as expected under certain conditions."
+              },
+              {
+                "title": "Resolve memory leak in event handler",
+                "subType": "Bug Fix",
+                "url": "www.example.com/bugfix2",
+                "description": "Will resolve a memory leak occurring in the event handling system."
+              }
+            ]
+          },
+          {
+            "title": "Small Enhancements",
+            "subType": "Feature",
+            "description": "Minor enhancements to improve usability.",
+            "children": [
+              {
+                "title": "Add additional date formats",
+                "subType": "Enhancement",
+                "url": "www.example.com/feature9",
+                "description": "Will add support for additional date formats in date utilities."
+              },
+              {
+                "title": "Improve error messages",
+                "subType": "Enhancement",
+                "url": "www.example.com/feature10",
+                "description": "Will enhance error messages to provide more detailed information."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release v2.0.0",
+        "type": "Release",
+        "subType": "Major",
+        "startDate": "2024-01-10T00:00:00.000Z",
+        "endDate": "2024-01-25T00:00:00.000Z",
+        "style": "orange",
+        "source": "Source 1",
+        "product": "RefluxionJS",
+        "description": "Major release introducing new modules and significant enhancements.",
+        "children": [
+          {
+            "title": "New Module: DOM Manipulation",
+            "subType": "Feature",
+            "description": "Introduction of a new module for DOM manipulation.",
+            "children": [
+              {
+                "title": "Implement basic DOM selectors",
+                "subType": "Enhancement",
+                "url": "www.example.com/feature11",
+                "description": "Will implement basic DOM selectors to simplify DOM manipulation."
+              },
+              {
+                "title": "Add event delegation",
+                "subType": "Enhancement",
+                "url": "www.example.com/feature12",
+                "description": "Will add support for event delegation to improve performance and flexibility."
+              }
+            ]
+          },
+          {
+            "title": "Improved Documentation",
+            "subType": "Feature",
+            "description": "Enhancements to the library documentation.",
+            "children": [
+              {
+                "title": "Add detailed usage examples",
+                "subType": "Enhancement",
+                "url": "www.example.com/feature13",
+                "description": "Will add detailed usage examples for each module and function."
+              },
+              {
+                "title": "Improve API reference",
+                "subType": "Enhancement",
+                "url": "www.example.com/feature14",
+                "description": "Will improve the API reference section with more comprehensive details and examples."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release v2.1.0",
+        "type": "Release",
+        "subType": "Minor",
+        "startDate": "2024-05-05T00:00:00.000Z",
+        "endDate": "2024-05-15T00:00:00.000Z",
+        "style": "purple",
+        "source": "Source 1",
+        "product": "RefluxionJS",
+        "description": "Minor release focusing on stability and minor feature additions.",
+        "children": [
+          {
+            "title": "Stability Improvements",
+            "subType": "Feature",
+            "description": "Enhancements to improve the stability of the library.",
+            "children": [
+              {
+                "title": "Fix occasional crashes",
+                "subType": "Bug Fix",
+                "url": "www.example.com/bugfix3",
+                "description": "Will fix issues causing occasional crashes under specific conditions."
+              },
+              {
+                "title": "Resolve compatibility issues with older browsers",
+                "subType": "Bug Fix",
+                "url": "www.example.com/bugfix4",
+                "description": "Will resolve compatibility issues with older versions of major browsers."
+              }
+            ]
+          },
+          {
+            "title": "Minor Feature Additions",
+            "subType": "Feature",
+            "description": "Adding small but useful features to the library.",
+            "children": [
+              {
+                "title": "Add support for new date formats",
+                "subType": "Enhancement",
+                "url": "www.example.com/feature15",
+                "description": "Will add support for additional date formats in date utilities."
+              },
+              {
+                "title": "Enhance logging functionality",
+                "subType": "Enhancement",
+                "url": "www.example.com/feature16",
+                "description": "Will enhance the logging functionality to provide more detailed logs."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
